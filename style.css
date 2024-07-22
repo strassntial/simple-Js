@@ -1,0 +1,34 @@
+.container{
+    background-color: rgb(87, 223, 182);
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.btn{
+    width: 550PX;
+    height: 80px;
+    border-radius: 80px;
+    background-color: transparent;
+    font-size: larger;
+    border: 5px solid navy;
+    font-weight: 900;
+    color: navy;
+    font-family:Verdana, sans-serif;
+}
+
+.btn:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+
+
